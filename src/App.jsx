@@ -1,10 +1,12 @@
 
 import './App.css'
 import Loginlayout from './Layouts/loginLayout'
+import Dashboard from './Pages/Dashboard'
 
 function App() {
  return(
-<Loginlayout/>
+  <Dashboard/>
+
  )
 }
 
