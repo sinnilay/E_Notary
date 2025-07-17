@@ -8,9 +8,12 @@ import { useNavigate } from "react-router-dom"
 function Dashboard() {
     const navigate = useNavigate()
     const [state,setstate] = useState(false)
+    
     function show(){
         setstate(true)
     }
+    
+   
     function hide(){
         setstate(false)
     }
@@ -142,7 +145,9 @@ function Dashboard() {
                     </div>
             </div>
         </div>
+        
     </div>
+     
     </section>
     </Loginlayout>
   )
