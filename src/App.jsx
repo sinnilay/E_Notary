@@ -1,11 +1,23 @@
 
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import Loginlayout from './Layouts/loginLayout'
 import Dashboard from './Pages/Dashboard'
+import Notaryupload from './Pages/Documents/Notaryupload'
+import UserInfoCallection from './Pages/Documents/userInfo'
+import Addsigner from './Pages/Documents/Addsigner'
 
 function App() {
  return(
-  <Dashboard/>
+    <Routes>
+      
+      <Route path='/' element={<Dashboard/>}></Route>
+      <Route path='/notary/upload' element={<Notaryupload/>}></Route>
+      <Route path='/user/datacallect' element={<UserInfoCallection/>}></Route>
+      <Route path='/document/addsigner' element={<Addsigner/>}></Route>
+
+  
+ </Routes>
 
  )
 }
