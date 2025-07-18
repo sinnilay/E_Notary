@@ -26,7 +26,7 @@ function Loginlayout({ children }) {
                 </div>
                 
             </main>
-            <div className={`hidden md:${s2?"block":"hidden"} bg-white absolute top-[6%] md:w-[20%]  right-[2.5%] shadow-[0_0_8px_black] p-2`} >
+            <div className={`hidden  md:${s2?"block":"hidden"} bg-white absolute top-[6%] md:w-[20%]  right-[2.5%] shadow-[0_0_8px_black] p-2`} >
                 <div className="flex px-7 py-4">
                 <div className="w-[83%] mt-2">
                     <h1 className="font-bold text-xl">My Profile account</h1>

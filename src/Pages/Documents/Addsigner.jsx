@@ -119,7 +119,7 @@ export default function Addsigner() {
           >
             ← Back
           </button>
-          <button className="bg-blue-600 text-white px-8 py-3 rounded-md text-lg hover:bg-blue-700">
+          <button onClick={()=>navigate("/user/details",{state:[...signers]})} className="bg-blue-600 text-white px-8 py-3 rounded-md text-lg hover:bg-blue-700">
             Continue
           </button>
         </div>

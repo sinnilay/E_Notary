@@ -24,7 +24,7 @@ function UserInfoCallection() {
            return 
         }
         if(impdata.routeingcheck==="no"){
-            navigate("/")
+            navigate("/user/details")
         }
 
   }
